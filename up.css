@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(ball10.jpg);
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 95% 95%;
+}
+section{
+    position: relative;
+    max-width: 400px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(55px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+
+}
+h1{
+    font-size: 2rem;
+    color: #201f1f;
+    text-align: center;
+   
+}
+p{
+    font-size: 0.9rem;
+    color: #424040;
+    margin: 10px 0 10px;
+    text-align: center;
+}
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    max-width: 310px;
+    border-bottom: 2px solid #fff;
+}
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #444343;
+    font-size: 1rem;
+   pointer-events: none;
+   transition: all 0.5s ease-in-out;
+
+}
+input:focus ~ label,
+   input:valid ~ label{
+    top: -5px;
+   }
+.inputbox input{
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 0 35px 0 5px;
+    color: #0e0d0d;
+
+}
+.inputbox ion-icon {
+    position: absolute;
+    right: 5px;
+    color:#d81a1a;
+    font-size: 1.2rem;
+    top: 20px;
+
+}
+button{
+   
+    width: 100%;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #fff;
+    border: #20d48f;
+    outline: invert;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.4s ease;
+}
+button:hover{
+    background-color: #20d48f;
+}
+.Login{
+font-size: 0.9rem;
+color: #fff;
+text-align: center;
+margin: 25px 0 10px;
+}
+.Login p a {
+text-decoration:none;
+color: #4570e7;
+font-weight: 600;
+
+}
+.Login p a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
