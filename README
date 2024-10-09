@@ -1,5 +1,16 @@
 
-GDSC ASSIGNMENT QUESTION
+Create An Account Form
 
-I created a login webpage using HTML and CSS for GDSCMVJCE tech team requirement 
+This repository contains the code for a simple "Create An Account" form that I designed as part of my audition for the Google Developer Student Club (GDSC). The form allows users to input their email and password to register, with a clean and user-friendly interface.
+
+Features
+Email Input Field: Users can provide their email address to register.
+Password Input Field: A password field ensures user privacy while registering.
+Create Account Button: Submits the form to create the account.
+Login Link: Redirects users who already have an account to the login page.
+
+Technologies Used
+HTML5 for the structure of the webpage.
+CSS3 for styling the form (external file: up.css).
+Ionicons for icons used in the email and password fields
 
